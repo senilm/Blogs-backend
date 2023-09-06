@@ -1,7 +1,7 @@
 const { BadRequestError, NotFoundError } = require("../errors")
 const mongoose = require('mongoose')
 const grid = require('gridfs-stream')
-const url = 'http://localhost:3001'
+const url = 'https://blogs-u0mj.onrender.com'
 
 let gfs,gridfsBucket;
 const conn = mongoose.connection;
